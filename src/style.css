@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #ffc500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.navbar {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    top: 0;
+    left: 0;
+    padding: 0 1rem;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar__links {
+    justify-self: end;
+}
+
+.navbar__links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar__links li {
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+}
+
+.navbar__links a:hover {
+    color: var(--color-primary);
+}
+
+.logo-studion {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.logo-studion__subtitle {
+    font-weight: 400;
+    text-align: right;
+}
