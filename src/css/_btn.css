@@ -22,7 +22,8 @@
 }
 
 .btn--institutional:hover,
-.btn--contact:hover {
+.btn--contact:hover,
+.btn--events:hover {
     color: var(--color-primary);
     border-color: var(--color-primary);
     background: unset;
@@ -32,4 +33,9 @@
     color: #333;
     border-color: #333;
     background: unset;
+}
+
+.btn--events {
+    color: #fff;
+    background-color: var(--color-primary);
 }

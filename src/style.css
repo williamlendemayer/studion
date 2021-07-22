@@ -10,8 +10,10 @@
 @import "./css/_utils.css";
 @import "./css/_navbar.css";
 @import "./css/_hero.css";
-@import "./css/enterprise.css";
+@import "./css/_enterprise.css";
 @import "./css/_gallery.css";
+@import "./css/_testimonials.css";
+@import "./css/_events.css";
 
 @import "./css/_home.css";
 @import "./css/_contact.css";
