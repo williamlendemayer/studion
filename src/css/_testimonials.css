@@ -1,0 +1,68 @@
+.testimonials {
+    width: 100%;
+    height: 800px;
+    background-color: var(--color-primary);
+}
+
+.testimonials2 {
+    display: grid;
+    grid-template-rows: 0fr 0.1fr;
+    place-items: center;
+}
+
+.testimonials3 {
+    display: grid;
+    grid-template-rows: 0fr 0.1fr;
+    place-items: center;
+
+}
+
+.testimonials4 {
+    cursor: pointer;
+    padding-top: 40px;
+}
+
+.depoimento__menino {
+    width: 589px;
+    height: 75px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.menino {
+    padding-top: 50px;
+}
+
+.nome {
+    margin: 0px;
+    padding: 15px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-family: "montserrat", sans-serif;
+}
+
+.ceo {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    display: block;
+    text-align: right;
+}
+
+.fa-quote-left {
+    padding: 20px;
+    font-size: 50px;
+}
+
+.fa-circle {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.point {
+    color: #fff;
+}

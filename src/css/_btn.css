@@ -1,0 +1,41 @@
+.btn {
+    cursor: pointer;
+    padding: 0.800rem 2.100rem;
+    border: 0.125rem solid #fff;
+    border-radius: 5rem;
+    color: var(--color-primary);
+    background: unset;
+    font-size: .9375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5 all ease;
+}
+
+.btn:hover, 
+.btn:active, 
+.btn:focus,
+.btn--institutional,
+.btn--contact {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn--institutional:hover,
+.btn--contact:hover,
+.btn--events:hover {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background: unset;
+}
+
+.btn--quote {
+    color: #333;
+    border-color: #333;
+    background: unset;
+}
+
+.btn--events {
+    color: #fff;
+    background-color: var(--color-primary);
+}
